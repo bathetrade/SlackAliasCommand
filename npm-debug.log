@@ -1,0 +1,848 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'body-parser' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData body-parser
+8 silly fetchNamedPackageData body-parser
+9 silly mapToRegistry name body-parser
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'body-parser',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'body-parser',
+12 silly mapToRegistry   name: 'body-parser',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+14 verbose request uri https://registry.npmjs.org/body-parser
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 12:03:41 PM
+17 verbose request id 12d62975cb03c178
+18 http request GET https://registry.npmjs.org/body-parser
+19 http 200 https://registry.npmjs.org/body-parser
+20 verbose headers { server: 'nginx/1.10.1',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'last-modified': 'Sun, 26 Mar 2017 17:16:43 GMT',
+20 verbose headers   etag: 'W/"58d7f77b-2021e"',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '14611',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Tue, 28 Mar 2017 19:03:40 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '36',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-lax8646-LAX',
+20 verbose headers   'x-cache': 'HIT',
+20 verbose headers   'x-cache-hits': '2',
+20 verbose headers   'x-timer': 'S1490727820.775075,VS0,VE0',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 200,
+21 silly get   { server: 'nginx/1.10.1',
+21 silly get     'content-type': 'application/json',
+21 silly get     'last-modified': 'Sun, 26 Mar 2017 17:16:43 GMT',
+21 silly get     etag: 'W/"58d7f77b-2021e"',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '14611',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Tue, 28 Mar 2017 19:03:40 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '36',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-lax8646-LAX',
+21 silly get     'x-cache': 'HIT',
+21 silly get     'x-cache-hits': '2',
+21 silly get     'x-timer': 'S1490727820.775075,VS0,VE0',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose get saving body-parser to C:\Users\Derek\AppData\Roaming\npm-cache\registry.npmjs.org\body-parser\.cache.json
+23 verbose correctMkdir C:\Users\Derek\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+24 verbose makeDirectory C:\Users\Derek\AppData\Roaming\npm-cache creation not in flight; initializing
+25 verbose makeCacheDir UID & GID are irrelevant on win32
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule body-parser@1.17.1 checking installable status
+39 silly cache add args [ 'body-parser', null ]
+40 verbose cache add spec body-parser
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'body-parser',
+41 silly cache add   scope: null,
+41 silly cache add   escapedName: 'body-parser',
+41 silly cache add   name: 'body-parser',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed body-parser@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for body-parser
+44 info addNameTag [ 'body-parser', 'latest' ]
+45 silly mapToRegistry name body-parser
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'body-parser',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'body-parser',
+48 silly mapToRegistry   name: 'body-parser',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+50 verbose addNameTag registry:https://registry.npmjs.org/body-parser not in flight; fetching
+51 verbose get https://registry.npmjs.org/body-parser not expired, no request
+52 silly addNameTag next cb for body-parser with tag latest
+53 silly addNamed body-parser@1.17.1
+54 verbose addNamed "1.17.1" is a plain semver version for body-parser
+55 silly mapToRegistry name body-parser
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry data Result {
+58 silly mapToRegistry   raw: 'body-parser',
+58 silly mapToRegistry   scope: null,
+58 silly mapToRegistry   escapedName: 'body-parser',
+58 silly mapToRegistry   name: 'body-parser',
+58 silly mapToRegistry   rawSpec: '',
+58 silly mapToRegistry   spec: 'latest',
+58 silly mapToRegistry   type: 'tag' }
+59 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+60 verbose addRemoteTarball https://registry.npmjs.org/body-parser/-/body-parser-1.17.1.tgz not in flight; adding
+61 verbose addRemoteTarball [ 'https://registry.npmjs.org/body-parser/-/body-parser-1.17.1.tgz',
+61 verbose addRemoteTarball   '75b3bc98ddd6e7e0d8ffe750dfaca5c66993fa47' ]
+62 info retry fetch attempt 1 at 12:03:41 PM
+63 info attempt registry request try #1 at 12:03:41 PM
+64 http fetch GET https://registry.npmjs.org/body-parser/-/body-parser-1.17.1.tgz
+65 http fetch 200 https://registry.npmjs.org/body-parser/-/body-parser-1.17.1.tgz
+66 silly fetchAndShaCheck shasum 75b3bc98ddd6e7e0d8ffe750dfaca5c66993fa47
+67 verbose addTmpTarball C:\Users\Derek\AppData\Local\Temp\npm-6736-09d72975\registry.npmjs.org\body-parser\-\body-parser-1.17.1.tgz not in flight; adding
+68 verbose addTmpTarball already have metadata; skipping unpack for body-parser@1.17.1
+69 verbose correctMkdir C:\Users\Derek\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+70 silly cache afterAdd body-parser@1.17.1
+71 verbose afterAdd C:\Users\Derek\AppData\Roaming\npm-cache\body-parser\1.17.1\package\package.json not in flight; writing
+72 verbose correctMkdir C:\Users\Derek\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+73 verbose afterAdd C:\Users\Derek\AppData\Roaming\npm-cache\body-parser\1.17.1\package\package.json written
+74 silly fetchNamedPackageData iconv-lite
+75 silly mapToRegistry name iconv-lite
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry data Result {
+78 silly mapToRegistry   raw: 'iconv-lite',
+78 silly mapToRegistry   scope: null,
+78 silly mapToRegistry   escapedName: 'iconv-lite',
+78 silly mapToRegistry   name: 'iconv-lite',
+78 silly mapToRegistry   rawSpec: '',
+78 silly mapToRegistry   spec: 'latest',
+78 silly mapToRegistry   type: 'tag' }
+79 silly mapToRegistry uri https://registry.npmjs.org/iconv-lite
+80 silly fetchNamedPackageData raw-body
+81 silly mapToRegistry name raw-body
+82 silly mapToRegistry using default registry
+83 silly mapToRegistry registry https://registry.npmjs.org/
+84 silly mapToRegistry data Result {
+84 silly mapToRegistry   raw: 'raw-body',
+84 silly mapToRegistry   scope: null,
+84 silly mapToRegistry   escapedName: 'raw-body',
+84 silly mapToRegistry   name: 'raw-body',
+84 silly mapToRegistry   rawSpec: '',
+84 silly mapToRegistry   spec: 'latest',
+84 silly mapToRegistry   type: 'tag' }
+85 silly mapToRegistry uri https://registry.npmjs.org/raw-body
+86 verbose request uri https://registry.npmjs.org/iconv-lite
+87 verbose request no auth needed
+88 info attempt registry request try #1 at 12:03:41 PM
+89 http request GET https://registry.npmjs.org/iconv-lite
+90 verbose request uri https://registry.npmjs.org/raw-body
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 12:03:41 PM
+93 http request GET https://registry.npmjs.org/raw-body
+94 http 200 https://registry.npmjs.org/iconv-lite
+95 verbose headers { server: 'nginx/1.10.1',
+95 verbose headers   'content-type': 'application/json',
+95 verbose headers   'last-modified': 'Thu, 16 Mar 2017 00:36:58 GMT',
+95 verbose headers   etag: 'W/"58c9de2a-fd15"',
+95 verbose headers   'content-encoding': 'gzip',
+95 verbose headers   'cache-control': 'max-age=300',
+95 verbose headers   'content-length': '7738',
+95 verbose headers   'accept-ranges': 'bytes',
+95 verbose headers   date: 'Tue, 28 Mar 2017 19:03:41 GMT',
+95 verbose headers   via: '1.1 varnish',
+95 verbose headers   age: '215',
+95 verbose headers   connection: 'keep-alive',
+95 verbose headers   'x-served-by': 'cache-lax8646-LAX',
+95 verbose headers   'x-cache': 'HIT',
+95 verbose headers   'x-cache-hits': '3',
+95 verbose headers   'x-timer': 'S1490727821.006610,VS0,VE0',
+95 verbose headers   vary: 'Accept-Encoding' }
+96 silly get cb [ 200,
+96 silly get   { server: 'nginx/1.10.1',
+96 silly get     'content-type': 'application/json',
+96 silly get     'last-modified': 'Thu, 16 Mar 2017 00:36:58 GMT',
+96 silly get     etag: 'W/"58c9de2a-fd15"',
+96 silly get     'content-encoding': 'gzip',
+96 silly get     'cache-control': 'max-age=300',
+96 silly get     'content-length': '7738',
+96 silly get     'accept-ranges': 'bytes',
+96 silly get     date: 'Tue, 28 Mar 2017 19:03:41 GMT',
+96 silly get     via: '1.1 varnish',
+96 silly get     age: '215',
+96 silly get     connection: 'keep-alive',
+96 silly get     'x-served-by': 'cache-lax8646-LAX',
+96 silly get     'x-cache': 'HIT',
+96 silly get     'x-cache-hits': '3',
+96 silly get     'x-timer': 'S1490727821.006610,VS0,VE0',
+96 silly get     vary: 'Accept-Encoding' } ]
+97 verbose get saving iconv-lite to C:\Users\Derek\AppData\Roaming\npm-cache\registry.npmjs.org\iconv-lite\.cache.json
+98 verbose correctMkdir C:\Users\Derek\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+99 silly pickManifestFromRegistryMetadata spec 0.4.15 tag latest versions [ '0.1.0',
+99 silly pickManifestFromRegistryMetadata   '0.1.1',
+99 silly pickManifestFromRegistryMetadata   '0.1.2',
+99 silly pickManifestFromRegistryMetadata   '0.1.3',
+99 silly pickManifestFromRegistryMetadata   '0.1.4',
+99 silly pickManifestFromRegistryMetadata   '0.2.0',
+99 silly pickManifestFromRegistryMetadata   '0.2.1',
+99 silly pickManifestFromRegistryMetadata   '0.2.3',
+99 silly pickManifestFromRegistryMetadata   '0.2.4',
+99 silly pickManifestFromRegistryMetadata   '0.2.5',
+99 silly pickManifestFromRegistryMetadata   '0.2.6',
+99 silly pickManifestFromRegistryMetadata   '0.2.7',
+99 silly pickManifestFromRegistryMetadata   '0.2.8',
+99 silly pickManifestFromRegistryMetadata   '0.2.9',
+99 silly pickManifestFromRegistryMetadata   '0.2.10',
+99 silly pickManifestFromRegistryMetadata   '0.2.11',
+99 silly pickManifestFromRegistryMetadata   '0.4.0-pre',
+99 silly pickManifestFromRegistryMetadata   '0.4.0-pre2',
+99 silly pickManifestFromRegistryMetadata   '0.4.0-pre3',
+99 silly pickManifestFromRegistryMetadata   '0.4.0',
+99 silly pickManifestFromRegistryMetadata   '0.4.1',
+99 silly pickManifestFromRegistryMetadata   '0.4.2',
+99 silly pickManifestFromRegistryMetadata   '0.4.3',
+99 silly pickManifestFromRegistryMetadata   '0.4.4',
+99 silly pickManifestFromRegistryMetadata   '0.4.5',
+99 silly pickManifestFromRegistryMetadata   '0.4.6',
+99 silly pickManifestFromRegistryMetadata   '0.4.7',
+99 silly pickManifestFromRegistryMetadata   '0.4.8',
+99 silly pickManifestFromRegistryMetadata   '0.4.9',
+99 silly pickManifestFromRegistryMetadata   '0.4.10',
+99 silly pickManifestFromRegistryMetadata   '0.4.11',
+99 silly pickManifestFromRegistryMetadata   '0.4.12',
+99 silly pickManifestFromRegistryMetadata   '0.4.13',
+99 silly pickManifestFromRegistryMetadata   '0.4.14',
+99 silly pickManifestFromRegistryMetadata   '0.4.15' ]
+100 silly resolveWithNewModule iconv-lite@0.4.15 checking installable status
+101 silly cache add args [ 'iconv-lite@0.4.15', null ]
+102 verbose cache add spec iconv-lite@0.4.15
+103 silly cache add parsed spec Result {
+103 silly cache add   raw: 'iconv-lite@0.4.15',
+103 silly cache add   scope: null,
+103 silly cache add   escapedName: 'iconv-lite',
+103 silly cache add   name: 'iconv-lite',
+103 silly cache add   rawSpec: '0.4.15',
+103 silly cache add   spec: '0.4.15',
+103 silly cache add   type: 'version' }
+104 silly addNamed iconv-lite@0.4.15
+105 verbose addNamed "0.4.15" is a plain semver version for iconv-lite
+106 silly mapToRegistry name iconv-lite
+107 silly mapToRegistry using default registry
+108 silly mapToRegistry registry https://registry.npmjs.org/
+109 silly mapToRegistry data Result {
+109 silly mapToRegistry   raw: 'iconv-lite',
+109 silly mapToRegistry   scope: null,
+109 silly mapToRegistry   escapedName: 'iconv-lite',
+109 silly mapToRegistry   name: 'iconv-lite',
+109 silly mapToRegistry   rawSpec: '',
+109 silly mapToRegistry   spec: 'latest',
+109 silly mapToRegistry   type: 'tag' }
+110 silly mapToRegistry uri https://registry.npmjs.org/iconv-lite
+111 verbose addNameVersion registry:https://registry.npmjs.org/iconv-lite not in flight; fetching
+112 verbose get https://registry.npmjs.org/iconv-lite not expired, no request
+113 silly mapToRegistry name iconv-lite
+114 silly mapToRegistry using default registry
+115 silly mapToRegistry registry https://registry.npmjs.org/
+116 silly mapToRegistry data Result {
+116 silly mapToRegistry   raw: 'iconv-lite',
+116 silly mapToRegistry   scope: null,
+116 silly mapToRegistry   escapedName: 'iconv-lite',
+116 silly mapToRegistry   name: 'iconv-lite',
+116 silly mapToRegistry   rawSpec: '',
+116 silly mapToRegistry   spec: 'latest',
+116 silly mapToRegistry   type: 'tag' }
+117 silly mapToRegistry uri https://registry.npmjs.org/iconv-lite
+118 verbose addRemoteTarball https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.15.tgz not in flight; adding
+119 verbose addRemoteTarball [ 'https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.15.tgz',
+119 verbose addRemoteTarball   'fe265a218ac6a57cfe854927e9d04c19825eddeb' ]
+120 info retry fetch attempt 1 at 12:03:41 PM
+121 info attempt registry request try #1 at 12:03:41 PM
+122 http fetch GET https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.15.tgz
+123 http 200 https://registry.npmjs.org/raw-body
+124 verbose headers { server: 'nginx/1.10.1',
+124 verbose headers   'content-type': 'application/json',
+124 verbose headers   'last-modified': 'Mon, 13 Feb 2017 08:34:04 GMT',
+124 verbose headers   etag: 'W/"58a16f7c-dd60"',
+124 verbose headers   'content-encoding': 'gzip',
+124 verbose headers   'cache-control': 'max-age=300',
+124 verbose headers   'content-length': '6680',
+124 verbose headers   'accept-ranges': 'bytes',
+124 verbose headers   date: 'Tue, 28 Mar 2017 19:03:41 GMT',
+124 verbose headers   via: '1.1 varnish',
+124 verbose headers   age: '280',
+124 verbose headers   connection: 'keep-alive',
+124 verbose headers   'x-served-by': 'cache-lax8641-LAX',
+124 verbose headers   'x-cache': 'HIT',
+124 verbose headers   'x-cache-hits': '5',
+124 verbose headers   'x-timer': 'S1490727821.056396,VS0,VE0',
+124 verbose headers   vary: 'Accept-Encoding' }
+125 silly get cb [ 200,
+125 silly get   { server: 'nginx/1.10.1',
+125 silly get     'content-type': 'application/json',
+125 silly get     'last-modified': 'Mon, 13 Feb 2017 08:34:04 GMT',
+125 silly get     etag: 'W/"58a16f7c-dd60"',
+125 silly get     'content-encoding': 'gzip',
+125 silly get     'cache-control': 'max-age=300',
+125 silly get     'content-length': '6680',
+125 silly get     'accept-ranges': 'bytes',
+125 silly get     date: 'Tue, 28 Mar 2017 19:03:41 GMT',
+125 silly get     via: '1.1 varnish',
+125 silly get     age: '280',
+125 silly get     connection: 'keep-alive',
+125 silly get     'x-served-by': 'cache-lax8641-LAX',
+125 silly get     'x-cache': 'HIT',
+125 silly get     'x-cache-hits': '5',
+125 silly get     'x-timer': 'S1490727821.056396,VS0,VE0',
+125 silly get     vary: 'Accept-Encoding' } ]
+126 verbose get saving raw-body to C:\Users\Derek\AppData\Roaming\npm-cache\registry.npmjs.org\raw-body\.cache.json
+127 verbose correctMkdir C:\Users\Derek\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+128 http fetch 200 https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.15.tgz
+129 silly pickManifestFromRegistryMetadata spec >=2.2.0 <2.3.0 tag latest versions [ '0.0.1',
+129 silly pickManifestFromRegistryMetadata   '0.0.2',
+129 silly pickManifestFromRegistryMetadata   '0.0.3',
+129 silly pickManifestFromRegistryMetadata   '0.1.0',
+129 silly pickManifestFromRegistryMetadata   '0.1.1',
+129 silly pickManifestFromRegistryMetadata   '0.2.0',
+129 silly pickManifestFromRegistryMetadata   '1.0.0',
+129 silly pickManifestFromRegistryMetadata   '1.0.1',
+129 silly pickManifestFromRegistryMetadata   '1.1.0',
+129 silly pickManifestFromRegistryMetadata   '1.1.1',
+129 silly pickManifestFromRegistryMetadata   '1.1.2',
+129 silly pickManifestFromRegistryMetadata   '1.1.3',
+129 silly pickManifestFromRegistryMetadata   '1.1.4',
+129 silly pickManifestFromRegistryMetadata   '1.1.5',
+129 silly pickManifestFromRegistryMetadata   '1.1.6',
+129 silly pickManifestFromRegistryMetadata   '1.1.7',
+129 silly pickManifestFromRegistryMetadata   '1.2.0',
+129 silly pickManifestFromRegistryMetadata   '1.2.1',
+129 silly pickManifestFromRegistryMetadata   '1.2.2',
+129 silly pickManifestFromRegistryMetadata   '1.2.3',
+129 silly pickManifestFromRegistryMetadata   '1.3.0',
+129 silly pickManifestFromRegistryMetadata   '1.3.1',
+129 silly pickManifestFromRegistryMetadata   '1.3.2',
+129 silly pickManifestFromRegistryMetadata   '1.3.3',
+129 silly pickManifestFromRegistryMetadata   '1.3.4',
+129 silly pickManifestFromRegistryMetadata   '2.0.0',
+129 silly pickManifestFromRegistryMetadata   '2.0.1',
+129 silly pickManifestFromRegistryMetadata   '2.0.2',
+129 silly pickManifestFromRegistryMetadata   '2.1.0',
+129 silly pickManifestFromRegistryMetadata   '2.1.1',
+129 silly pickManifestFromRegistryMetadata   '2.1.2',
+129 silly pickManifestFromRegistryMetadata   '2.1.3',
+129 silly pickManifestFromRegistryMetadata   '2.1.4',
+129 silly pickManifestFromRegistryMetadata   '2.1.5',
+129 silly pickManifestFromRegistryMetadata   '2.1.6',
+129 silly pickManifestFromRegistryMetadata   '2.1.7',
+129 silly pickManifestFromRegistryMetadata   '2.2.0' ]
+130 silly resolveWithNewModule raw-body@2.2.0 checking installable status
+131 silly cache add args [ 'raw-body@~2.2.0', null ]
+132 verbose cache add spec raw-body@~2.2.0
+133 silly cache add parsed spec Result {
+133 silly cache add   raw: 'raw-body@~2.2.0',
+133 silly cache add   scope: null,
+133 silly cache add   escapedName: 'raw-body',
+133 silly cache add   name: 'raw-body',
+133 silly cache add   rawSpec: '~2.2.0',
+133 silly cache add   spec: '>=2.2.0 <2.3.0',
+133 silly cache add   type: 'range' }
+134 silly addNamed raw-body@>=2.2.0 <2.3.0
+135 verbose addNamed ">=2.2.0 <2.3.0" is a valid semver range for raw-body
+136 silly addNameRange { name: 'raw-body', range: '>=2.2.0 <2.3.0', hasData: false }
+137 silly mapToRegistry name raw-body
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry https://registry.npmjs.org/
+140 silly mapToRegistry data Result {
+140 silly mapToRegistry   raw: 'raw-body',
+140 silly mapToRegistry   scope: null,
+140 silly mapToRegistry   escapedName: 'raw-body',
+140 silly mapToRegistry   name: 'raw-body',
+140 silly mapToRegistry   rawSpec: '',
+140 silly mapToRegistry   spec: 'latest',
+140 silly mapToRegistry   type: 'tag' }
+141 silly mapToRegistry uri https://registry.npmjs.org/raw-body
+142 verbose addNameRange registry:https://registry.npmjs.org/raw-body not in flight; fetching
+143 verbose get https://registry.npmjs.org/raw-body not expired, no request
+144 silly addNameRange number 2 { name: 'raw-body', range: '>=2.2.0 <2.3.0', hasData: true }
+145 silly addNameRange versions [ 'raw-body',
+145 silly addNameRange   [ '0.0.1',
+145 silly addNameRange     '0.0.2',
+145 silly addNameRange     '0.0.3',
+145 silly addNameRange     '0.1.0',
+145 silly addNameRange     '0.1.1',
+145 silly addNameRange     '0.2.0',
+145 silly addNameRange     '1.0.0',
+145 silly addNameRange     '1.0.1',
+145 silly addNameRange     '1.1.0',
+145 silly addNameRange     '1.1.1',
+145 silly addNameRange     '1.1.2',
+145 silly addNameRange     '1.1.3',
+145 silly addNameRange     '1.1.4',
+145 silly addNameRange     '1.1.5',
+145 silly addNameRange     '1.1.6',
+145 silly addNameRange     '1.1.7',
+145 silly addNameRange     '1.2.0',
+145 silly addNameRange     '1.2.1',
+145 silly addNameRange     '1.2.2',
+145 silly addNameRange     '1.2.3',
+145 silly addNameRange     '1.3.0',
+145 silly addNameRange     '1.3.1',
+145 silly addNameRange     '1.3.2',
+145 silly addNameRange     '1.3.3',
+145 silly addNameRange     '1.3.4',
+145 silly addNameRange     '2.0.0',
+145 silly addNameRange     '2.0.1',
+145 silly addNameRange     '2.0.2',
+145 silly addNameRange     '2.1.0',
+145 silly addNameRange     '2.1.1',
+145 silly addNameRange     '2.1.2',
+145 silly addNameRange     '2.1.3',
+145 silly addNameRange     '2.1.4',
+145 silly addNameRange     '2.1.5',
+145 silly addNameRange     '2.1.6',
+145 silly addNameRange     '2.1.7',
+145 silly addNameRange     '2.2.0' ] ]
+146 silly pickManifestFromRegistryMetadata spec >=2.2.0 <2.3.0 tag latest versions [ '0.0.1',
+146 silly pickManifestFromRegistryMetadata   '0.0.2',
+146 silly pickManifestFromRegistryMetadata   '0.0.3',
+146 silly pickManifestFromRegistryMetadata   '0.1.0',
+146 silly pickManifestFromRegistryMetadata   '0.1.1',
+146 silly pickManifestFromRegistryMetadata   '0.2.0',
+146 silly pickManifestFromRegistryMetadata   '1.0.0',
+146 silly pickManifestFromRegistryMetadata   '1.0.1',
+146 silly pickManifestFromRegistryMetadata   '1.1.0',
+146 silly pickManifestFromRegistryMetadata   '1.1.1',
+146 silly pickManifestFromRegistryMetadata   '1.1.2',
+146 silly pickManifestFromRegistryMetadata   '1.1.3',
+146 silly pickManifestFromRegistryMetadata   '1.1.4',
+146 silly pickManifestFromRegistryMetadata   '1.1.5',
+146 silly pickManifestFromRegistryMetadata   '1.1.6',
+146 silly pickManifestFromRegistryMetadata   '1.1.7',
+146 silly pickManifestFromRegistryMetadata   '1.2.0',
+146 silly pickManifestFromRegistryMetadata   '1.2.1',
+146 silly pickManifestFromRegistryMetadata   '1.2.2',
+146 silly pickManifestFromRegistryMetadata   '1.2.3',
+146 silly pickManifestFromRegistryMetadata   '1.3.0',
+146 silly pickManifestFromRegistryMetadata   '1.3.1',
+146 silly pickManifestFromRegistryMetadata   '1.3.2',
+146 silly pickManifestFromRegistryMetadata   '1.3.3',
+146 silly pickManifestFromRegistryMetadata   '1.3.4',
+146 silly pickManifestFromRegistryMetadata   '2.0.0',
+146 silly pickManifestFromRegistryMetadata   '2.0.1',
+146 silly pickManifestFromRegistryMetadata   '2.0.2',
+146 silly pickManifestFromRegistryMetadata   '2.1.0',
+146 silly pickManifestFromRegistryMetadata   '2.1.1',
+146 silly pickManifestFromRegistryMetadata   '2.1.2',
+146 silly pickManifestFromRegistryMetadata   '2.1.3',
+146 silly pickManifestFromRegistryMetadata   '2.1.4',
+146 silly pickManifestFromRegistryMetadata   '2.1.5',
+146 silly pickManifestFromRegistryMetadata   '2.1.6',
+146 silly pickManifestFromRegistryMetadata   '2.1.7',
+146 silly pickManifestFromRegistryMetadata   '2.2.0' ]
+147 silly addNamed raw-body@latest
+148 verbose addNamed "latest" is being treated as a dist-tag for raw-body
+149 info addNameTag [ 'raw-body', 'latest' ]
+150 silly mapToRegistry name raw-body
+151 silly mapToRegistry using default registry
+152 silly mapToRegistry registry https://registry.npmjs.org/
+153 silly mapToRegistry data Result {
+153 silly mapToRegistry   raw: 'raw-body',
+153 silly mapToRegistry   scope: null,
+153 silly mapToRegistry   escapedName: 'raw-body',
+153 silly mapToRegistry   name: 'raw-body',
+153 silly mapToRegistry   rawSpec: '',
+153 silly mapToRegistry   spec: 'latest',
+153 silly mapToRegistry   type: 'tag' }
+154 silly mapToRegistry uri https://registry.npmjs.org/raw-body
+155 verbose addNameTag registry:https://registry.npmjs.org/raw-body already in flight; waiting
+156 silly addNameTag next cb for raw-body with tag latest
+157 silly addNamed raw-body@2.2.0
+158 verbose addNamed "2.2.0" is a plain semver version for raw-body
+159 silly mapToRegistry name raw-body
+160 silly mapToRegistry using default registry
+161 silly mapToRegistry registry https://registry.npmjs.org/
+162 silly mapToRegistry data Result {
+162 silly mapToRegistry   raw: 'raw-body',
+162 silly mapToRegistry   scope: null,
+162 silly mapToRegistry   escapedName: 'raw-body',
+162 silly mapToRegistry   name: 'raw-body',
+162 silly mapToRegistry   rawSpec: '',
+162 silly mapToRegistry   spec: 'latest',
+162 silly mapToRegistry   type: 'tag' }
+163 silly mapToRegistry uri https://registry.npmjs.org/raw-body
+164 verbose addRemoteTarball https://registry.npmjs.org/raw-body/-/raw-body-2.2.0.tgz not in flight; adding
+165 verbose addRemoteTarball [ 'https://registry.npmjs.org/raw-body/-/raw-body-2.2.0.tgz',
+165 verbose addRemoteTarball   '994976cf6a5096a41162840492f0bdc5d6e7fb96' ]
+166 info retry fetch attempt 1 at 12:03:41 PM
+167 info attempt registry request try #1 at 12:03:41 PM
+168 http fetch GET https://registry.npmjs.org/raw-body/-/raw-body-2.2.0.tgz
+169 http fetch 200 https://registry.npmjs.org/raw-body/-/raw-body-2.2.0.tgz
+170 silly fetchAndShaCheck shasum 994976cf6a5096a41162840492f0bdc5d6e7fb96
+171 verbose addTmpTarball C:\Users\Derek\AppData\Local\Temp\npm-6736-09d72975\registry.npmjs.org\raw-body\-\raw-body-2.2.0.tgz not in flight; adding
+172 verbose addTmpTarball already have metadata; skipping unpack for raw-body@2.2.0
+173 verbose correctMkdir C:\Users\Derek\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+174 silly cache afterAdd raw-body@2.2.0
+175 verbose afterAdd C:\Users\Derek\AppData\Roaming\npm-cache\raw-body\2.2.0\package\package.json not in flight; writing
+176 verbose correctMkdir C:\Users\Derek\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+177 verbose afterAdd C:\Users\Derek\AppData\Roaming\npm-cache\raw-body\2.2.0\package\package.json written
+178 silly fetchAndShaCheck shasum fe265a218ac6a57cfe854927e9d04c19825eddeb
+179 verbose addTmpTarball C:\Users\Derek\AppData\Local\Temp\npm-6736-09d72975\registry.npmjs.org\iconv-lite\-\iconv-lite-0.4.15.tgz not in flight; adding
+180 verbose addTmpTarball already have metadata; skipping unpack for iconv-lite@0.4.15
+181 verbose correctMkdir C:\Users\Derek\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+182 silly cache afterAdd iconv-lite@0.4.15
+183 verbose afterAdd C:\Users\Derek\AppData\Roaming\npm-cache\iconv-lite\0.4.15\package\package.json not in flight; writing
+184 verbose correctMkdir C:\Users\Derek\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+185 verbose afterAdd C:\Users\Derek\AppData\Roaming\npm-cache\iconv-lite\0.4.15\package\package.json written
+186 silly loadAllDepsIntoIdealTree Finishing
+187 silly loadIdealTree Finishing
+188 silly currentTree SlackGifAliasCommand
+188 silly currentTree +-- accepts@1.3.3
+188 silly currentTree +-- array-flatten@1.1.1
+188 silly currentTree +-- bytes@2.4.0
+188 silly currentTree +-- content-disposition@0.5.2
+188 silly currentTree +-- content-type@1.0.2
+188 silly currentTree +-- cookie-signature@1.0.6
+188 silly currentTree +-- cookie@0.3.1
+188 silly currentTree +-- debug@2.6.1
+188 silly currentTree +-- depd@1.1.0
+188 silly currentTree +-- destroy@1.0.4
+188 silly currentTree +-- ee-first@1.1.1
+188 silly currentTree +-- encodeurl@1.0.1
+188 silly currentTree +-- escape-html@1.0.3
+188 silly currentTree +-- etag@1.8.0
+188 silly currentTree +-- express@4.15.2
+188 silly currentTree +-- finalhandler@1.0.1
+188 silly currentTree | `-- debug@2.6.3
+188 silly currentTree +-- forwarded@0.1.0
+188 silly currentTree +-- fresh@0.5.0
+188 silly currentTree +-- http-errors@1.6.1
+188 silly currentTree +-- inherits@2.0.3
+188 silly currentTree +-- ipaddr.js@1.3.0
+188 silly currentTree +-- media-typer@0.3.0
+188 silly currentTree +-- merge-descriptors@1.0.1
+188 silly currentTree +-- methods@1.1.2
+188 silly currentTree +-- mime-db@1.27.0
+188 silly currentTree +-- mime-types@2.1.15
+188 silly currentTree +-- mime@1.3.4
+188 silly currentTree +-- ms@0.7.2
+188 silly currentTree +-- negotiator@0.6.1
+188 silly currentTree +-- npm-debug.log
+188 silly currentTree +-- on-finished@2.3.0
+188 silly currentTree +-- parseurl@1.3.1
+188 silly currentTree +-- path-to-regexp@0.1.7
+188 silly currentTree +-- proxy-addr@1.1.4
+188 silly currentTree +-- qs@6.4.0
+188 silly currentTree +-- range-parser@1.2.0
+188 silly currentTree +-- send@0.15.1
+188 silly currentTree +-- serve-static@1.12.1
+188 silly currentTree +-- setprototypeof@1.0.3
+188 silly currentTree +-- statuses@1.3.1
+188 silly currentTree +-- type-is@1.6.14
+188 silly currentTree +-- unpipe@1.0.0
+188 silly currentTree +-- utils-merge@1.0.0
+188 silly currentTree `-- vary@1.1.1
+189 silly idealTree SlackGifAliasCommand
+189 silly idealTree +-- accepts@1.3.3
+189 silly idealTree +-- array-flatten@1.1.1
+189 silly idealTree +-- body-parser@1.17.1
+189 silly idealTree +-- bytes@2.4.0
+189 silly idealTree +-- content-disposition@0.5.2
+189 silly idealTree +-- content-type@1.0.2
+189 silly idealTree +-- cookie-signature@1.0.6
+189 silly idealTree +-- cookie@0.3.1
+189 silly idealTree +-- debug@2.6.1
+189 silly idealTree +-- depd@1.1.0
+189 silly idealTree +-- destroy@1.0.4
+189 silly idealTree +-- ee-first@1.1.1
+189 silly idealTree +-- encodeurl@1.0.1
+189 silly idealTree +-- escape-html@1.0.3
+189 silly idealTree +-- etag@1.8.0
+189 silly idealTree +-- express@4.15.2
+189 silly idealTree +-- finalhandler@1.0.1
+189 silly idealTree | `-- debug@2.6.3
+189 silly idealTree +-- forwarded@0.1.0
+189 silly idealTree +-- fresh@0.5.0
+189 silly idealTree +-- http-errors@1.6.1
+189 silly idealTree +-- iconv-lite@0.4.15
+189 silly idealTree +-- inherits@2.0.3
+189 silly idealTree +-- ipaddr.js@1.3.0
+189 silly idealTree +-- media-typer@0.3.0
+189 silly idealTree +-- merge-descriptors@1.0.1
+189 silly idealTree +-- methods@1.1.2
+189 silly idealTree +-- mime-db@1.27.0
+189 silly idealTree +-- mime-types@2.1.15
+189 silly idealTree +-- mime@1.3.4
+189 silly idealTree +-- ms@0.7.2
+189 silly idealTree +-- negotiator@0.6.1
+189 silly idealTree +-- npm-debug.log
+189 silly idealTree +-- on-finished@2.3.0
+189 silly idealTree +-- parseurl@1.3.1
+189 silly idealTree +-- path-to-regexp@0.1.7
+189 silly idealTree +-- proxy-addr@1.1.4
+189 silly idealTree +-- qs@6.4.0
+189 silly idealTree +-- range-parser@1.2.0
+189 silly idealTree +-- raw-body@2.2.0
+189 silly idealTree +-- send@0.15.1
+189 silly idealTree +-- serve-static@1.12.1
+189 silly idealTree +-- setprototypeof@1.0.3
+189 silly idealTree +-- statuses@1.3.1
+189 silly idealTree +-- type-is@1.6.14
+189 silly idealTree +-- unpipe@1.0.0
+189 silly idealTree +-- utils-merge@1.0.0
+189 silly idealTree `-- vary@1.1.1
+190 silly generateActionsToTake Starting
+191 silly install generateActionsToTake
+192 silly generateActionsToTake Finishing
+193 silly diffTrees action count 3
+194 silly diffTrees add iconv-lite@0.4.15
+195 silly diffTrees add raw-body@2.2.0
+196 silly diffTrees add body-parser@1.17.1
+197 silly decomposeActions action count 24
+198 silly decomposeActions fetch iconv-lite@0.4.15
+199 silly decomposeActions extract iconv-lite@0.4.15
+200 silly decomposeActions test iconv-lite@0.4.15
+201 silly decomposeActions preinstall iconv-lite@0.4.15
+202 silly decomposeActions build iconv-lite@0.4.15
+203 silly decomposeActions install iconv-lite@0.4.15
+204 silly decomposeActions postinstall iconv-lite@0.4.15
+205 silly decomposeActions finalize iconv-lite@0.4.15
+206 silly decomposeActions fetch raw-body@2.2.0
+207 silly decomposeActions extract raw-body@2.2.0
+208 silly decomposeActions test raw-body@2.2.0
+209 silly decomposeActions preinstall raw-body@2.2.0
+210 silly decomposeActions build raw-body@2.2.0
+211 silly decomposeActions install raw-body@2.2.0
+212 silly decomposeActions postinstall raw-body@2.2.0
+213 silly decomposeActions finalize raw-body@2.2.0
+214 silly decomposeActions fetch body-parser@1.17.1
+215 silly decomposeActions extract body-parser@1.17.1
+216 silly decomposeActions test body-parser@1.17.1
+217 silly decomposeActions preinstall body-parser@1.17.1
+218 silly decomposeActions build body-parser@1.17.1
+219 silly decomposeActions install body-parser@1.17.1
+220 silly decomposeActions postinstall body-parser@1.17.1
+221 silly decomposeActions finalize body-parser@1.17.1
+222 silly runTopLevelLifecycles Starting
+223 silly executeActions Starting
+224 silly install executeActions
+225 silly doSerial global-install 0
+226 silly doParallel fetch 3
+227 verbose correctMkdir C:\Users\Derek\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+228 verbose makeDirectory C:\Users\Derek\AppData\Roaming\npm-cache\_locks creation not in flight; initializing
+229 verbose makeCacheDir UID & GID are irrelevant on win32
+230 verbose lock using C:\Users\Derek\AppData\Roaming\npm-cache\_locks\staging-eea7b2f4598f6c48.lock for C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging
+231 silly doParallel extract 3
+232 silly extract iconv-lite@0.4.15
+233 silly extract raw-body@2.2.0
+234 silly extract body-parser@1.17.1
+235 verbose unbuild node_modules\.staging\iconv-lite-1eeb6656
+236 verbose unbuild node_modules\.staging\raw-body-0917f7c9
+237 verbose unbuild node_modules\.staging\body-parser-8be30271
+238 silly gentlyRm C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\iconv-lite-1eeb6656 is being purged from base C:\Users\Derek\Desktop\Code\SlackGifAliasCommand
+239 verbose gentlyRm don't care about contents; nuking C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\iconv-lite-1eeb6656
+240 silly gentlyRm C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\raw-body-0917f7c9 is being purged from base C:\Users\Derek\Desktop\Code\SlackGifAliasCommand
+241 verbose gentlyRm don't care about contents; nuking C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\raw-body-0917f7c9
+242 verbose tar unpack C:\Users\Derek\AppData\Roaming\npm-cache\iconv-lite\0.4.15\package.tgz
+243 verbose tar unpacking to C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\iconv-lite-1eeb6656
+244 silly gentlyRm C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\iconv-lite-1eeb6656 is being purged
+245 verbose gentlyRm don't care about contents; nuking C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\iconv-lite-1eeb6656
+246 verbose tar unpack C:\Users\Derek\AppData\Roaming\npm-cache\raw-body\2.2.0\package.tgz
+247 verbose tar unpacking to C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\raw-body-0917f7c9
+248 silly gentlyRm C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\raw-body-0917f7c9 is being purged
+249 verbose gentlyRm don't care about contents; nuking C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\raw-body-0917f7c9
+250 silly gentlyRm C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\body-parser-8be30271 is being purged from base C:\Users\Derek\Desktop\Code\SlackGifAliasCommand
+251 verbose gentlyRm don't care about contents; nuking C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\body-parser-8be30271
+252 silly gunzTarPerm modes [ '777', '666' ]
+253 silly gunzTarPerm modes [ '777', '666' ]
+254 verbose tar unpack C:\Users\Derek\AppData\Roaming\npm-cache\body-parser\1.17.1\package.tgz
+255 verbose tar unpacking to C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\body-parser-8be30271
+256 silly gentlyRm C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\body-parser-8be30271 is being purged
+257 verbose gentlyRm don't care about contents; nuking C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\body-parser-8be30271
+258 silly gunzTarPerm modes [ '777', '666' ]
+259 silly gunzTarPerm extractEntry package.json
+260 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+261 silly gunzTarPerm extractEntry package.json
+262 silly gunzTarPerm extractEntry package.json
+263 silly gunzTarPerm extractEntry .npmignore
+264 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+265 silly gunzTarPerm extractEntry README.md
+266 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+267 silly gunzTarPerm extractEntry README.md
+268 silly gunzTarPerm extractEntry LICENSE
+269 silly gunzTarPerm extractEntry README.md
+270 silly gunzTarPerm extractEntry LICENSE
+271 silly gunzTarPerm extractEntry index.js
+272 silly gunzTarPerm extractEntry HISTORY.md
+273 silly gunzTarPerm extractEntry lib/read.js
+274 silly gunzTarPerm extractEntry lib/types/json.js
+275 silly gunzTarPerm extractEntry lib/types/raw.js
+276 silly gunzTarPerm extractEntry lib/types/text.js
+277 silly gunzTarPerm extractEntry lib/types/urlencoded.js
+278 silly gunzTarPerm extractEntry LICENSE
+279 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+280 silly gunzTarPerm extractEntry index.js
+281 silly gunzTarPerm extractEntry HISTORY.md
+282 silly gunzTarPerm extractEntry encodings/dbcs-codec.js
+283 silly gunzTarPerm modified mode [ 'encodings/dbcs-codec.js', 420, 438 ]
+284 silly gunzTarPerm extractEntry encodings/dbcs-data.js
+285 silly gunzTarPerm modified mode [ 'encodings/dbcs-data.js', 420, 438 ]
+286 silly gunzTarPerm extractEntry encodings/index.js
+287 silly gunzTarPerm modified mode [ 'encodings/index.js', 420, 438 ]
+288 silly gunzTarPerm extractEntry encodings/internal.js
+289 silly gunzTarPerm modified mode [ 'encodings/internal.js', 420, 438 ]
+290 silly gunzTarPerm extractEntry encodings/sbcs-codec.js
+291 silly gunzTarPerm modified mode [ 'encodings/sbcs-codec.js', 420, 438 ]
+292 silly gunzTarPerm extractEntry encodings/sbcs-data-generated.js
+293 silly gunzTarPerm modified mode [ 'encodings/sbcs-data-generated.js', 420, 438 ]
+294 silly gunzTarPerm extractEntry encodings/sbcs-data.js
+295 silly gunzTarPerm modified mode [ 'encodings/sbcs-data.js', 420, 438 ]
+296 silly gunzTarPerm extractEntry encodings/utf16.js
+297 silly gunzTarPerm modified mode [ 'encodings/utf16.js', 420, 438 ]
+298 silly gentlyRm C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\raw-body-0917f7c9\node_modules is being purged
+299 verbose gentlyRm don't care about contents; nuking C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\raw-body-0917f7c9\node_modules
+300 silly gunzTarPerm extractEntry encodings/utf7.js
+301 silly gunzTarPerm modified mode [ 'encodings/utf7.js', 420, 438 ]
+302 silly gunzTarPerm extractEntry encodings/tables/big5-added.json
+303 silly gunzTarPerm modified mode [ 'encodings/tables/big5-added.json', 420, 438 ]
+304 silly gunzTarPerm extractEntry encodings/tables/cp936.json
+305 silly gunzTarPerm modified mode [ 'encodings/tables/cp936.json', 420, 438 ]
+306 silly gentlyRm C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\body-parser-8be30271\node_modules is being purged
+307 verbose gentlyRm don't care about contents; nuking C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\body-parser-8be30271\node_modules
+308 silly gunzTarPerm extractEntry encodings/tables/cp949.json
+309 silly gunzTarPerm modified mode [ 'encodings/tables/cp949.json', 420, 438 ]
+310 silly gunzTarPerm extractEntry encodings/tables/cp950.json
+311 silly gunzTarPerm modified mode [ 'encodings/tables/cp950.json', 420, 438 ]
+312 silly gunzTarPerm extractEntry encodings/tables/eucjp.json
+313 silly gunzTarPerm modified mode [ 'encodings/tables/eucjp.json', 420, 438 ]
+314 silly gunzTarPerm extractEntry encodings/tables/gb18030-ranges.json
+315 silly gunzTarPerm modified mode [ 'encodings/tables/gb18030-ranges.json', 420, 438 ]
+316 silly gunzTarPerm extractEntry encodings/tables/gbk-added.json
+317 silly gunzTarPerm modified mode [ 'encodings/tables/gbk-added.json', 420, 438 ]
+318 silly gunzTarPerm extractEntry encodings/tables/shiftjis.json
+319 silly gunzTarPerm modified mode [ 'encodings/tables/shiftjis.json', 420, 438 ]
+320 silly gunzTarPerm extractEntry .travis.yml
+321 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+322 silly gunzTarPerm extractEntry Changelog.md
+323 silly gunzTarPerm modified mode [ 'Changelog.md', 420, 438 ]
+324 silly gunzTarPerm extractEntry lib/bom-handling.js
+325 silly gunzTarPerm modified mode [ 'lib/bom-handling.js', 420, 438 ]
+326 silly gunzTarPerm extractEntry lib/extend-node.js
+327 silly gunzTarPerm modified mode [ 'lib/extend-node.js', 420, 438 ]
+328 silly gunzTarPerm extractEntry lib/index.js
+329 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+330 silly gunzTarPerm extractEntry lib/streams.js
+331 silly gunzTarPerm modified mode [ 'lib/streams.js', 420, 438 ]
+332 silly gunzTarPerm extractEntry lib/index.d.ts
+333 silly gunzTarPerm modified mode [ 'lib/index.d.ts', 420, 438 ]
+334 silly gentlyRm C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\iconv-lite-1eeb6656\node_modules is being purged
+335 verbose gentlyRm don't care about contents; nuking C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\iconv-lite-1eeb6656\node_modules
+336 silly doParallel preinstall 3
+337 silly preinstall iconv-lite@0.4.15
+338 info lifecycle iconv-lite@0.4.15~preinstall: iconv-lite@0.4.15
+339 silly preinstall raw-body@2.2.0
+340 info lifecycle raw-body@2.2.0~preinstall: raw-body@2.2.0
+341 silly preinstall body-parser@1.17.1
+342 info lifecycle body-parser@1.17.1~preinstall: body-parser@1.17.1
+343 silly lifecycle iconv-lite@0.4.15~preinstall: no script for preinstall, continuing
+344 silly lifecycle raw-body@2.2.0~preinstall: no script for preinstall, continuing
+345 silly lifecycle body-parser@1.17.1~preinstall: no script for preinstall, continuing
+346 silly doReverseSerial remove 0
+347 silly doSerial move 0
+348 silly doSerial finalize 3
+349 silly finalize C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\iconv-lite
+350 verbose unlock done using C:\Users\Derek\AppData\Roaming\npm-cache\_locks\staging-eea7b2f4598f6c48.lock for C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging
+351 silly rollbackFailedOptional Starting
+352 silly gentlyRm C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\iconv-lite is being purged from base C:\Users\Derek\Desktop\Code\SlackGifAliasCommand
+353 verbose gentlyRm don't care about contents; nuking C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\iconv-lite
+354 silly gentlyRm C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\iconv-lite is being purged from base C:\Users\Derek\Desktop\Code\SlackGifAliasCommand
+355 verbose gentlyRm don't care about contents; nuking C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\iconv-lite
+356 silly gentlyRm C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\iconv-lite is being purged from base C:\Users\Derek\Desktop\Code\SlackGifAliasCommand
+357 verbose gentlyRm don't care about contents; nuking C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\iconv-lite
+358 silly gentlyRm C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\iconv-lite is being purged from base C:\Users\Derek\Desktop\Code\SlackGifAliasCommand
+359 verbose gentlyRm don't care about contents; nuking C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\iconv-lite
+360 silly gentlyRm C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\iconv-lite is being purged from base C:\Users\Derek\Desktop\Code\SlackGifAliasCommand
+361 verbose gentlyRm don't care about contents; nuking C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\iconv-lite
+362 silly gentlyRm C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\iconv-lite is being purged from base C:\Users\Derek\Desktop\Code\SlackGifAliasCommand
+363 verbose gentlyRm don't care about contents; nuking C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\iconv-lite
+364 silly gentlyRm C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\iconv-lite is being purged from base C:\Users\Derek\Desktop\Code\SlackGifAliasCommand
+365 verbose gentlyRm don't care about contents; nuking C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\iconv-lite
+366 silly gentlyRm C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\iconv-lite is being purged from base C:\Users\Derek\Desktop\Code\SlackGifAliasCommand
+367 verbose gentlyRm don't care about contents; nuking C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\iconv-lite
+368 silly rollbackFailedOptional Finishing
+369 silly runTopLevelLifecycles Finishing
+370 silly install printInstalled
+371 warn enoent ENOENT: no such file or directory, open 'C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\package.json'
+372 verbose enoent ENOENT: no such file or directory, open 'C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\package.json'
+372 verbose enoent This is most likely not a problem with npm itself
+372 verbose enoent and is related to npm not being able to find a file.
+373 warn SlackGifAliasCommand No description
+374 verbose If you need help, you may report this error at:
+374 verbose     <https://github.com/npm/npm/issues>
+375 warn SlackGifAliasCommand No repository field.
+376 verbose If you need help, you may report this error at:
+376 verbose     <https://github.com/npm/npm/issues>
+377 warn SlackGifAliasCommand No README data
+378 verbose If you need help, you may report this error at:
+378 verbose     <https://github.com/npm/npm/issues>
+379 warn SlackGifAliasCommand No license field.
+380 verbose If you need help, you may report this error at:
+380 verbose     <https://github.com/npm/npm/issues>
+381 verbose stack Error
+381 verbose stack     at destStatted (C:\Program Files\nodejs\node_modules\npm\lib\install\action\finalize.js:29:7)
+381 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:284:29
+381 verbose stack     at FSReqWrap.oncomplete (fs.js:114:15)
+381 verbose stack
+381 verbose stack Error: EPERM: operation not permitted, rename 'C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\iconv-lite-1eeb6656' -> 'C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\iconv-lite'
+382 verbose cwd C:\Users\Derek\Desktop\Code\SlackGifAliasCommand
+383 error Windows_NT 10.0.14393
+384 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "body-parser"
+385 error node v7.7.3
+386 error npm  v4.1.2
+387 error path C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\iconv-lite-1eeb6656
+388 error code EPERM
+389 error errno -4048
+390 error syscall rename
+391 error Error
+391 error     at destStatted (C:\Program Files\nodejs\node_modules\npm\lib\install\action\finalize.js:29:7)
+391 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:284:29
+391 error     at FSReqWrap.oncomplete (fs.js:114:15)
+391 error
+391 error Error: EPERM: operation not permitted, rename 'C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\iconv-lite-1eeb6656' -> 'C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\iconv-lite'
+391 error  Error
+391 error     at destStatted (C:\Program Files\nodejs\node_modules\npm\lib\install\action\finalize.js:29:7)
+391 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:284:29
+391 error     at FSReqWrap.oncomplete (fs.js:114:15)
+391 error
+391 error Error: EPERM: operation not permitted, rename 'C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\.staging\iconv-lite-1eeb6656' -> 'C:\Users\Derek\Desktop\Code\SlackGifAliasCommand\node_modules\iconv-lite'
+392 error Please try running this command again as root/Administrator.
+393 verbose exit [ -4048, true ]
